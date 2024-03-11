@@ -65,3 +65,16 @@ function Message(userName = "Someone"){    //this is default value for userName 
 }
 console.log(Message("Miles"));
 console.log(Message());
+
+//for a shopping website cart there will be added multiple items, so keep in mide there should take multiple numbers of parameters
+function claculateCartPrice1(...nums){
+    return nums
+}
+//(...) --> This is called rest operator, it used to bundle the elements
+console.log(claculateCartPrice1(500, 648, 250))  //using loop we can return total value of it
+
+
+function claculateCartPrice2(val1, val2, ...nums){
+    return nums
+}
+console.log(claculateCartPrice2(500, 250, 682, 980))  //1st 2values occupied by val1 and val2 soothers number will be added into array
