@@ -1,5 +1,4 @@
 //object inside a function
-
 const user = {
     userName: "Rohan",
     userID: 148,
