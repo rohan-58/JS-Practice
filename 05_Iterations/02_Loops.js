@@ -1,5 +1,0 @@
-//              While-loop
-
-while (condition) {
-    
-}
